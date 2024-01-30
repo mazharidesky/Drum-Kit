@@ -1,46 +1,5 @@
-/* eslint-disable no-use-before-define */
 /* eslint-disable no-case-declarations */
-// const numberOfDrumButtons = document.querySelectorAll('.drum').length;
-
-// for (let i = 0; i < numberOfDrumButtons; i++) {
-//   const drum = document.querySelectorAll('.drum')[i];
-//   const audio = new Audio();
-
-//   drum.addEventListener('click', () => {
-//     if (i === 4) {
-//       audio.src = 'sounds/snare.mp3';
-//     } else if (i === 5) {
-//       audio.src = 'sounds/crash.mp3';
-//     } else if (i === 6) {
-//       audio.src = 'sounds/kick-bass.mp3';
-//     } else {
-//       audio.src = `sounds/tom-${i + 1}.mp3`;
-//     }
-//     audio.play();
-//   });
-
-//   drum.addEventListener('keydown', (event) => {
-//     if (event.key === 'w') {
-//       audio.src = 'sounds/tom-1.mp3';
-//     } else if (event.key === 'a') {
-//       audio.src = 'sounds/tom-2.mp3';
-//     } else if (event.key === 's') {
-//       audio.src = 'sounds/tom-3.mp3';
-//     } else if (event.key === 'd') {
-//       audio.src = 'sounds/tom-4.mp3';
-//     } else if (event.key === 'j') {
-//       audio.src = 'sounds/snare.mp3';
-//     } else if (event.key === 'k') {
-//       audio.src = 'sounds/crash.mp3';
-//     } else if (event.key === 'l') {
-//       audio.src = 'sounds/kick-bass.mp3';
-//     } else {
-//       return;
-//     }
-//     audio.play();
-//   });
-// }
-
+/* eslint-disable no-use-before-define */
 const numberOfDrumButtons = document.querySelectorAll('.drum').length;
 
 for (let i = 0; i < numberOfDrumButtons; i++) {
